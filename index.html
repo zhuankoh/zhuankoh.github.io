@@ -1,1 +1,171 @@
-Hello World
+<!DOCTYPE HTML>
+<!--
+	Strata by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Zhuan Khye Koh</title>
+		<link rel="icon" href="images/lse.ico">
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+		<style>body { visibility: hidden;}</style>
+		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery.poptrox.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/init.js"></script>
+		<noscript>
+			<link rel="stylesheet" href="css/skel.css" />
+			<link rel="stylesheet" href="css/style.css" />
+			<link rel="stylesheet" href="css/style-xlarge.css" />
+			<style>body { visibility: visible; }</style>
+		</noscript>
+		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+	</head>
+
+	<body id="top" onload="load()">
+		<!-- Header -->
+		<header id="header">
+			<div class="image avatar"><img src="images/portrait.jpg" alt="" /></div>
+			<h1><strong>Zhuan Khye Koh</strong></h1>
+			<h1><a href="http://www.lse.ac.uk/Mathematics/" target="_blank">Department of Mathematics</a></h1>
+			<h1><a href="http://www.lse.ac.uk/" target="_blank">London School of Economics</a></h1><br>
+				<ul class="icons">
+					<li><h6 class="icon fa-envelope-o"><span class="label">Email</span></h6></li>
+					<li>z dot koh3 at lse.ac.uk</li>
+				</ul>
+		</header>
+
+		<!-- Main -->
+		<div id="main">
+
+			<!-- One -->
+			<section id="one">
+				<header> 
+					<h2>About Me</h2> <!-- class="major"-->
+				</header>
+				<p><span><img src="images/erc.svg" align="right" alt="" style="padding-left:20px;width:150px;height:150px;"/></span>I have graduated! I wrote my <a href="http://etheses.lse.ac.uk/4463/" target="_blank">PhD thesis</a> under the supervision of <a href="http://personal.lse.ac.uk/veghl/" target="_blank">László Végh</a>, funded by his ERC grant <a href="http://personal.lse.ac.uk/veghl/scaleopt.html" target="_blank">ScaleOpt</a>. Previously, I was a research assistant in the <a href="https://uwaterloo.ca/combinatorics-and-optimization/" target="_blank">Department of Combinatorics and Optimization</a> at the University of Waterloo, supervised by <a href="http://www.math.uwaterloo.ca/~lsanita/" target="_blank">Laura Sanità</a>.
+				I received my Bachelors and Masters degrees from the <a href="https://uwaterloo.ca/math/" target="_blank">University of Waterloo</a>.<br><br>
+				My research interests are in algorithms, optimization and game theory.</p>
+			</section>
+
+
+			<!-- Two 
+			<section id="two">
+				<h2>Preprints</h2>
+				
+			</section> -->
+
+
+			<!-- Three -->
+			<section id="three">
+				<h2>Publications</h2>
+				<header>
+					<h4>On the Correlation Gap of Matroids</h4>
+					<p>with Edin Husić, Georg Loho and László A. Végh<br>
+						Conference version: IPCO 2023.</p>
+				</header>
+				<ul class="actions small">
+					<li><button onclick="hideshow('abstract6')" class="button special small">Abstract</a></li>
+					<li><a href="https://arxiv.org/abs/2209.09896" target="_blank" class="button small">arXiv</a></li>
+					<li><a href="files/cg-slides.pdf" target="_blank" class="button small">Slides</a></li>
+				</ul>
+				<blockquote id="abstract6" style="display: none">A set function can be extended to the unit cube in various ways; the correlation gap measures the ratio between two natural extensions. This quantity has been identified as the performance guarantee in a range of approximation algorithms and mechanism design settings. It is known that the correlation gap of a monotone submodular function is 1−1/e, and this is tight even for simple matroid rank functions.
+We initiate a fine-grained study of correlation gaps of matroid rank functions. In particular, we present improved lower bounds on the correlation gap as parametrized by the rank and the girth of the matroid. We also show that the worst correlation gap of a weighted matroid rank function is achieved under uniform weights. Such improved lower bounds have direct applications for submodular maximization under matroid constraints, mechanism design, and contention resolution schemes. Previous work relied on implicit correlation gap bounds for problems such as list decoding and approval voting.</blockquote><br>
+
+				<header>
+					<h4>Beyond Value Iteration for Parity Games: Strategy Iteration with Universal Trees</h4>
+					<p>with Georg Loho<br>
+						Conference version: MFCS 2022.</p>
+				</header>
+				<ul class="actions small">
+					<li><button onclick="hideshow('abstract5')" class="button special small">Abstract</a></li>
+					<li><a href="https://arxiv.org/abs/2108.13338" target="_blank" class="button small">arXiv</a></li>
+					<li><a href="files/pg-slides.pdf" target="_blank" class="button small">Slides</a></li>
+				</ul>
+				<blockquote id="abstract5" style="display: none">Parity games have witnessed several new quasi-polynomial algorithms since the breakthrough result of Calude et al. (2017). The combinatorial object underlying these approaches is a universal tree, as identified by Czerwiński et al. (2019). By providing a quasi-polynomial lower bound on the size of a universal tree, they have highlighted a barrier that must be overcome by all existing approaches to attain polynomial running time. This is due to the existence of worst case instances which force these algorithms to explore a large portion of the tree.
+As an attempt to overcome this barrier, we propose a strategy iteration framework which can be applied on any universal tree. It is at least as fast as its value iteration counterparts, while allowing one to take bigger leaps in the universal tree. Our main technical contribution is an efficient method for computing the least fixed point of 1-player games. This is achieved via a careful adaptation of shortest path algorithms to the setting of ordered trees. By plugging in the universal tree of Jurdziński and Lazić (2017), or the Strahler universal tree of Daviaud et al. (2020), we obtain instantiations of the general framework that take time O(mn<sup>2</sup>log n log d) and O(mn<sup>2</sup>log<sup>3</sup>n log d) respectively per iteration.</blockquote><br>
+										
+				<header>
+					<h4>On Circuit Diameter Bounds via Circuit Imbalances</h4>
+					<p>with Daniel Dadush, Bento Natura and László A. Végh<br>
+						Conference version: IPCO 2022.</p>
+				</header>
+				<ul class="actions small">
+					<li><button onclick="hideshow('abstract4')" class="button special small">Abstract</a></li>
+					<li><a href="https://arxiv.org/abs/2111.07913" target="_blank" class="button small">arXiv</a></li>
+					<li><a href="files/circuit-slides.pdf" target="_blank" class="button small">Slides</a></li>
+				</ul>
+				<blockquote id="abstract4" style="display: none">We study the circuit diameter of polyhedra, introduced by Borgwardt, Finhold and Hemmecke (SIDMA 2015) as a relaxation of the combinatorial diameter. We show that the circuit diameter of a system {x∈ℝ<sup>n</sup>: Ax = b, 0 ≤ x ≤ u} for A∈ℝ<sup>m×n</sup> is bounded as O(m<sup>2</sup>log(m+κ<sub>A</sub>) + n log n), where κ<sub>A</sub> is the circuit imbalance measure of the constraint matrix. This yields a strongly polynomial circuit diameter bound e.g. if all entries of A have polynomially bounded encoding length in n. Further, we present circuit augmentation algorithms for LPs using the minimum-ratio circuit cancelling rule. Even though the standard minimum-ratio circuit cancelling algorithm is not finite in general, our variant can solve an optimization LP in O(n<sup>3</sup>log(n+κ<sub>A</sub>)) augmentation steps.</blockquote><br> 
+				
+				<header>
+					<h4>An Accelerated Newton&ndash;Dinkelbach Method and its Application to Two Variables Per Inequality Systems</h4>
+					<p>with Daniel Dadush, Bento Natura and László A. Végh<br>
+						Accepted to Mathematics of Operations Research.<br>
+						Conference version: ESA 2021.</p>
+				</header>
+				<ul class="actions small">
+					<li><button onclick="hideshow('abstract3')" class="button special small">Abstract</a></li>
+					<li><a href="https://arxiv.org/abs/2004.08634/" target="_blank" class="button small">arXiv</a></li>
+					<li><a href="files/newton-slides.pdf" target="_blank" class="button small">Slides</a></li>
+				</ul>
+				<blockquote id="abstract3" style="display: none">We present an accelerated, or 'look-ahead' version of the Newton&ndash;Dinkelbach method, a well-known technique for solving fractional and parametric optimization problems. This acceleration halves the Bregman divergence between the current iterate and the optimal solution within every two iterations. Using the Bregman divergence as a potential in conjunction with combinatorial arguments, we obtain strongly polynomial algorithms in three applications domains: (i) For linear fractional combinatorial optimization, we show a convergence bound of O(m log m) iterations; the previous best bound was O(m<sup>2</sup>log m) by Wang et al. (2006). (ii) We obtain a strongly polynomial label-correcting algorithm for solving linear feasibility systems with two variables per inequality (2VPI). For a 2VPI system with n variables and m constraints, our algorithm runs in O(mn) iterations. Every iteration takes O(mn) time for general 2VPI systems, and O(m + n log n) time for the special case of deterministic Markov Decision Processes (DMDPs). This extends and strengthens a previous result by Madani (2002) that showed a weakly polynomial bound for a variant of the Newton&ndash;Dinkelbach method for solving DMDPs. (iii) We give a simplified variant of the parametric submodular function minimization result by Goemans et al. (2017).</blockquote><br> 
+
+				<header>
+					<h4>An Efficient Characterization of Submodular Spanning Tree Games</h4>
+					<p>with Laura Sanità<br>
+						Mathematical Programming 183(1): 359&ndash;377, 2020.<br>
+						Conference version: IPCO 2019.</p>
+				</header>
+				<ul class="actions small">
+					<li><button onclick="hideshow('abstract2')" class="button special small">Abstract</a></li>
+					<li><a href="https://arxiv.org/abs/1906.02642/" target="_blank" class="button small">arXiv</a></li>
+					<li><a href="files/mst-slides.pdf" target="_blank" class="button small">Slides</a></li>
+				</ul>
+				<blockquote id="abstract2" style="display: none">Cooperative games form an important class of problems in game theory, where the goal is to distribute a value among a set of players who are allowed to cooperate by forming coalitions. An outcome of the game is given by an allocation vector that assigns a value share to each player. A crucial aspect of such games is submodularity (or convexity). Indeed, convex instances of cooperative games exhibit several nice properties, e.g. regarding the existence and computation of allocations realizing some of the most important solution concepts proposed in the literature. For this reason, a relevant question is whether one can give a polynomial time characterization of submodular instances, for prominent cooperative games that are in general non-convex. In this paper, we focus on a fundamental and widely studied cooperative game, namely the spanning tree game. An efficient recognition of submodular instances of this game was not known so far, and explicitly mentioned as an open question in the literature. We here settle this open problem by giving a polynomial-time characterization of submodular spanning tree games.</blockquote><br>
+
+				<header>
+					<h4>Stabilizing Weighted Graphs</h4>
+					<p>with Laura Sanità<br>
+						Mathematics of Operations Research 45(4): 1318&ndash;1341, 2020.<br>
+						Conference version: ICALP 2018.</p>
+				</header>
+				<ul class="actions small">
+					<li><button onclick="hideshow('abstract1')" class="button special small">Abstract</button></li>
+					<li><a href="https://arxiv.org/abs/1709.01982/" target="_blank" class="button small">arXiv</a></li>
+					<li><a href="files/stabilizer-slides.pdf" target="_blank" class="button small">Slides</a></li>
+					<li><a href="https://www.birs.ca/events/2017/5-day-workshops/17w5133/videos/watch/201711131103-Koh.html" target="_blank" class="button small">Video</a></li>
+				</ul>
+				<blockquote id="abstract1" style="display: none">An edge-weighted graph G is called stable if the value of a maximum-weight matching equals the value of a maximum-weight fractional matching. Stable graphs play an important role in network bargaining games and cooperative matching games, because they characterize instances which admit stable outcomes. We give the first polynomial-time algorithm to find a minimum cardinality subset of vertices whose removal from G yields a stable graph, for any weighted graph G. The algorithm is combinatorial and exploits new structural properties of basic fractional matchings. In particular, one of the main ingredients of our result is the development of a polynomial-time algorithm to compute a basic maximum-weight fractional matching with the minimum number of odd cycles in its support. This generalizes a fundamental and classical result on unweighted matchings given by Balas more than 30 years ago, which we expect to prove useful beyond this particular application. In contrast, we show that the problem of finding a minimum cardinality subset of edges whose removal from a weighted graph G yields a stable graph, does not admit any constant-factor approximation algorithm, unless P = NP. In this setting, we develop an O(Δ)-approximation algorithm for the problem, where Δ is the maximum degree of a node in G.</blockquote>
+			</section>
+		</div>
+
+		<!-- Footer -->
+		<footer id="footer">
+			<ul class="copyright">
+				<li>© 2022 Zhuan Khye Koh</li>
+				<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+			</ul>
+		</footer>
+
+		<!-- JS functions -->
+		<script>
+			function hideshow(name) {
+  				var x = document.getElementById(name);
+  				if (x.style.display === "none") {
+    				x.style.display = "block";
+  				} else {
+    				x.style.display = "none";
+  				}
+  			}
+		</script>
+		<script>
+			function load() {
+				document.body.style.visibility='visible';
+			}
+		</script>
+	</body>
+</html>
