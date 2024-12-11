@@ -59,6 +59,17 @@
 			<section id="two">
 				<h2>Preprints</h2>
 				<header>
+					<h4>Approximating the Held-Karp Bound for Metric TSP in Nearly Linear Work and Polylogarithmic Depth</h4>
+					<p>with Omri Weinstein and Sorrachai Yingchareonthawornchai</p>
+				</header>
+				<ul class="actions small">
+					<li><button onclick="hideshow('abstract9')" class="button special small">Abstract</a></li>
+					<li><a href="https://arxiv.org/abs/2411.14745" target="_blank" class="button small">arXiv</a></li>
+				</ul>
+				<blockquote id="abstract9" style="display: none">We present a nearly-linear work parallel approximation scheme for the Held-Karp bound for metric TSP. Given an edge-weighted graph G with m edges and ε > 0, it returns a (1 + ε)-approximation to the Held-Karp bound with high probability, in O ̃(m/ε<sup>4</sup>) work and O ̃(1/ε<sup>4</sup>) depth. We also give a parallel algorithm for computing a (1 + ε)-approximate fractional solution to the k-edge-connected spanning subgraph problem, with the same complexity.</blockquote>
+
+
+				<header>
 					<h4>Online Matching on 3-Uniform Hypergraphs</h4>
 					<p>with Sander Borst and Danish Kashaev</p>
 				</header>
@@ -66,7 +77,7 @@
 					<li><button onclick="hideshow('abstract8')" class="button special small">Abstract</a></li>
 					<li><a href="https://arxiv.org/abs/2402.13227" target="_blank" class="button small">arXiv</a></li>
 				</ul>
-				<blockquote id="abstract8" style="display: none">The online matching problem was introduced by Karp, Vazirani and Vazirani (STOC 1990) on bipartite graphs with vertex arrivals. It is well-known that the optimal competitive ratio is 1−1/e for both integral and fractional versions of the problem. Since then, there has been considerable effort to find optimal competitive ratios for other related settings. In this work, we go beyond the graph case and study the online matching problem on k-uniform hypergraphs. For k = 3, we provide an optimal primal-dual fractional algorithm, which achieves a competitive ratio of (e−1)/(e+1) ≈ 0.4621. As our main technical contribution, we present a carefully constructed adversarial instance, which shows that this ratio is in fact optimal. It combines ideas from known hard instances for bipartite graphs under the edge-arrival and vertex-arrival models. For k≥3, we give a simple integral algorithm which performs better than greedy when the online nodes have bounded degree. As a corollary, it achieves the optimal competitive ratio of 1/2 on 3-uniform hypergraphs when every online node has degree at most 2. This is because the special case where every online node has degree 1 is equivalent to the edge-arrival model on graphs, for which an upper bound of 1/2 is known.</blockquote>
+				<blockquote id="abstract8" style="display: none">We study the online matching problem on k-uniform hypergraphs with one-sided vertex arrivals. This is a natural generalization of the online bipartite matching problem introduced by Karp, Vazirani and Vazirani (STOC 1990). The greedy algorithm is 1/k-competitive, whereas no algorithm is 2/k-competitive. For k = 3, we provide a fractional algorithm which is (e − 1)/(e + 1)-competitive, and show that this is optimal. For k ≥ 3, we give a simple integral algorithm which performs better than greedy when the online nodes have bounded degree.</blockquote>
 			</section> 
 
 
