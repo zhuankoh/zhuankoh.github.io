@@ -65,6 +65,18 @@
 			<section id="three">
 				<h2>Publications</h2>
 				<header>
+					<h4>On Circuit Diameter and Straight Line Complexity</h4>
+					<p>with Daniel Dadush and Stefan Kober<br>
+					Conference version: IPCO 2026 (To appear)</p>
+				</header>
+				<ul class="actions small">
+					<li><button onclick="hideshow('abstract10')" class="button special small">Abstract</a></li>
+					<li><a href="https://arxiv.org/abs/2602.05699" target="_blank" class="button small">arXiv</a></li>
+				</ul>
+				<blockquote id="abstract10" style="display: none">We show that the circuit diameter of a polyhedron is up to a poly(n) factor bounded by the straight line complexity of its LPs. We also give a circuit augmentation algorithm with matching iteration complexity.</blockquote><br>
+
+
+				<header>
 					<h4>Approximating the Held&ndash;Karp Bound for Metric TSP in Nearly Linear Work and Polylogarithmic Depth</h4>
 					<p>with Omri Weinstein and Sorrachai Yingchareonthawornchai<br>
 					Conference version: STOC 2025</p>
@@ -74,7 +86,7 @@
 					<li><a href="https://arxiv.org/abs/2411.14745" target="_blank" class="button small">arXiv</a></li>
 					<li><a href="files/heldkarp-slides.pdf" target="_blank" class="button small">Slides</a></li>
 				</ul>
-				<blockquote id="abstract9" style="display: none">We present a nearly linear work parallel approximation scheme for the Held&ndash;Karp bound for metric TSP. Given an edge-weighted graph G with m edges and ε > 0, it returns a (1 + ε)-approximation to the Held&ndash;Karp bound with high probability, in Õ(m/ε<sup>4</sup>) work and Õ(1/ε<sup>4</sup>) depth. We also give a parallel algorithm for computing a (1 + ε)-approximate fractional solution to the k-edge-connected spanning subgraph problem, with similar work and depth bounds.</blockquote><br>
+				<blockquote id="abstract9" style="display: none">We give a nearly linear work parallel approximation scheme for the Held&ndash;Karp bound for metric TSP. Our method also yields a parallel approximation scheme for the k-edge-connected spanning subgraph LP, with similar work and depth bounds.</blockquote><br>
 
 
 				<header>
@@ -86,7 +98,7 @@
 					<li><button onclick="hideshow('abstract8')" class="button special small">Abstract</a></li>
 					<li><a href="https://arxiv.org/abs/2402.13227" target="_blank" class="button small">arXiv</a></li>
 				</ul>
-				<blockquote id="abstract8" style="display: none">We study the online matching problem on k-uniform hypergraphs with one-sided vertex arrivals. This is a natural generalization of the online bipartite matching problem introduced by Karp, Vazirani and Vazirani (STOC 1990). The greedy algorithm is 1/k-competitive, whereas no algorithm is 2/k-competitive. For k = 3, we provide a fractional algorithm which is (e − 1)/(e + 1)-competitive, and prove that this is optimal. For k ≥ 3, we give a simple integral algorithm which performs better than greedy when the online nodes have bounded degree.</blockquote><br>
+				<blockquote id="abstract8" style="display: none">We study the online matching problem on k-uniform hypergraphs with one-sided vertex arrivals. The greedy algorithm is 1/k-competitive, whereas no algorithm is 2/k-competitive. For k = 3, we give a fractional algorithm which is (e − 1)/(e + 1)-competitive, and prove that this is optimal. For k ≥ 3, we give a simple integral algorithm which performs better than greedy when the online nodes have bounded degree.</blockquote><br>
 
 
 				<header>
@@ -99,10 +111,7 @@
 					<li><a href="files/genflow-slides.pdf" target="_blank" class="button small">Slides</a></li>
 					<li><a href="https://youtu.be/b7Vvh5onw-I?si=QiG77cmfNsYGHk-P" target="_blank" class="button small">Video</a></li>
 				</ul>
-				<blockquote id="abstract7" style="display: none">We give a strongly polynomial algorithm for minimum cost generalized flow, and hence for optimizing any linear program with at most two non-zero entries per row, or at most two non-zero entries per column. Primal and dual feasibility were shown by Megiddo (SICOMP ’83) and Végh (MOR ’17) respectively. Our result can be viewed as progress towards understanding whether all linear programs can be solved in strongly polynomial time, also referred to as Smale’s 9th problem.
-Our approach is based on the recent primal-dual interior point method (IPM) due to Allamigeon, Dadush, Loho, Natura and Végh (FOCS ’22). The number of iterations needed by the IPM is bounded, up to a polynomial factor in the number of inequalities, by the straight line complexity of the central path. Roughly speaking, this is the minimum number of pieces of any piecewise linear curve that multiplicatively approximates the central path.
-As our main contribution, we show that the straight line complexity of any minimum cost generalized flow instance is polynomial in the number of arcs and vertices. By applying a reduction of Hochbaum (ORL ’04), the same bound applies to any linear program with at most two non-zeros per column or per row.
-To be able to run the IPM, one requires a suitable initial point. For this purpose, we develop a novel multistage approach, where each stage can be solved in strongly polynomial time given the result of the previous stage. Beyond this, substantial work is needed to ensure that the bit complexity of each iterate remains bounded during the execution of the algorithm. For this purpose, we show that one can maintain a representation of the iterates as a low complexity convex combination of vertices. Our approach is black-box and can be applied to any log-barrier path following method.</blockquote><br>
+				<blockquote id="abstract7" style="display: none">We give a strongly polynomial algorithm for minimum cost generalized flow, and as a consequence, for all LPs with at most two nonzero entries per row or column. </blockquote><br>
 
 				<header>
 					<h4>On the Correlation Gap of Matroids</h4>
@@ -115,8 +124,7 @@ To be able to run the IPM, one requires a suitable initial point. For this purpo
 					<li><a href="https://arxiv.org/abs/2209.09896" target="_blank" class="button small">arXiv</a></li>
 					<li><a href="files/cg-slides.pdf" target="_blank" class="button small">Slides</a></li>
 				</ul>
-				<blockquote id="abstract6" style="display: none">A set function can be extended to the unit cube in various ways; the correlation gap measures the ratio between two natural extensions. This quantity has been identified as the performance guarantee in a range of approximation algorithms and mechanism design settings. It is known that the correlation gap of a monotone submodular function is 1−1/e, and this is tight even for simple matroid rank functions.
-We initiate a fine-grained study of correlation gaps of matroid rank functions. In particular, we present improved lower bounds on the correlation gap as parametrized by the rank and the girth of the matroid. We also show that the worst correlation gap of a weighted matroid rank function is achieved under uniform weights. Such improved lower bounds have direct applications for submodular maximization under matroid constraints, mechanism design, and contention resolution schemes. Previous work relied on implicit correlation gap bounds for problems such as list decoding and approval voting.</blockquote><br>
+				<blockquote id="abstract6" style="display: none">We derive an improved bound on the correlation gap of matroid rank functions, parameterized by the rank and girth of the matroid. We also show that for any matroid, the correlation gap of its weighted matroid rank function is the worst under uniform weights. </blockquote><br>
 
 				<header>
 					<h4>Beyond Value Iteration for Parity Games: Strategy Iteration with Universal Trees</h4>
